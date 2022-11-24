@@ -26,7 +26,7 @@ if(!$CheckModules)
        Write-Output "Something went wrong. Please ensure the PS Modules and profiles are installed properly before running this script."
        Write-Output ""
        Write-Output "1. Check the path name in your PS Profile is pointing to the correct PS Functions folder path"
-       Write-Output "2. Reinstall the AzureAD, MSOnline and ExchangeOnlineManagement from https://github.com/Serraview/PS-ModuleInstaller-o365admin"
+       Write-Output "2. Reinstall the AzureAD, MSOnline and ExchangeOnlineManagement from https://github.com/drpebkac/azurepsmoduleinstaller"
        Write-Output "3. Alternatively, Manually load AzureAD, MSOnline and ExchangeOnlineManagement modules using Powershell with elevated rights before running this script."
 
        exit
@@ -56,7 +56,7 @@ if(!$CheckModules)
        Write-Output "ExchangeOnlineManagement"
        Write-Output ""
        Write-Output "If you have these modules installed but not on a CurrentUser scope. You may need to try running this script in Powershell with elevated rights"
-       Write-Output "Alternatively install the modules from https://github.com/Serraview/PS-ModuleInstaller-o365admin"
+       Write-Output "Alternatively install the modules from https://github.com/drpebkac/azurepsmoduleinstaller"
        exit
     }
   }
